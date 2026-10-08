@@ -1,0 +1,37 @@
+# Parameter file for Li and Liao 3D orbit O15(1.2)
+# Any line in this file starting with a hashtag is considered a comment by the notebook and is ignored
+
+# Name of the system
+filename = Li_Liao_O15
+
+# Constants and numerical parameters
+
+# Newton's Gravitation Constant 
+G = 1
+
+# Softening parameter
+soft = 0.0001
+
+# Timestep value
+timestep = 0.0001
+
+# Steps
+nsteps = 400000
+
+# Period tolerance
+period_tol = 5e-4
+
+# Simulation physical initial conditions
+
+# Masses
+masses = 1, 1, 1.2
+
+# Initial positions
+position_m1 = -1, 0, 0
+position_m2 = 1, 0, 0
+position_m3 = 0, 0, 2.02644449381331
+
+# Initial velocities
+velocity_m1 = 0.102636397331765, 0.215434938325578, 0.496854238937692
+velocity_m2 = 0.102636397331765, 0.215434938325578, -0.496854238937692
+velocity_m3 = -0.171060662219608, -0.35905823054263, 0

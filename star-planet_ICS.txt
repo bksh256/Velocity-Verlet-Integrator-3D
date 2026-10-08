@@ -1,0 +1,21 @@
+# Parameter file for star-planet
+# Any line in this file starting with a hashtag is considered a comment by the notebook and is ignored
+
+# Simulation numerical parameters
+G = 1
+soft = 0.0001
+period_tol = 5e-4
+num_tests = 128
+
+# Masses
+mass_1 = 1
+mass_2 = 1000
+
+# Distances
+dist_min = 0.1
+dist_max = 10
+
+# System Configuration
+system_type = star-planet
+mode = close
+

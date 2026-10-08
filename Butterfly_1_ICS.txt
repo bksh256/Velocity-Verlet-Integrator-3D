@@ -1,0 +1,37 @@
+# Parameter file for Butterfly 1
+# Any line in this file starting with a hashtag is considered a comment by the notebook and is ignored
+
+# Name of the system
+filename = Butterfly_1
+
+# Constants and numerical parameters
+
+# Newton's Gravitation Constant 
+G = 1
+
+# Softening parameter
+soft = 0.0001
+
+# Timestep value
+timestep = 0.000001
+
+# Steps
+nsteps = 15000000
+
+# Period tolerance
+period_tol = 5e-4
+
+# Simulation physical initial conditions
+
+# Masses
+masses = 1, 1, 1
+
+# Initial positions
+position_m1 = -1, 0, 0
+position_m2 = 1, 0, 0
+position_m3 = 0, 0, 0
+
+# Initial velocities
+velocity_m1 = 0.306893, 0.125507, 0
+velocity_m2 = 0.306893, 0.125507, 0
+velocity_m3 = -0.613786, -0.251014, 0

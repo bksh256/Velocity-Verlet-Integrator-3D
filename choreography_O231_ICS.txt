@@ -1,0 +1,38 @@
+# Parameter file for the 3D choreography O231(1.0)
+# Any line in this file starting with a hashtag is considered a comment by the notebook and is ignored
+
+# Name of the system
+filename = choreography_O231
+
+# Constants and numerical parameters
+
+# Newton's Gravitation Constant
+G = 1
+
+# Softening parameter
+soft = 0.0001
+
+# Timestep value
+timestep = 0.0001
+
+# Steps
+# 8263840 steps = 10 periods at this timestep (each extra period is 826384 steps)
+nsteps = 8263840
+
+# Period tolerance
+period_tol = 5e-4
+
+# Simulation physical initial conditions
+
+# Masses
+masses = 1, 1, 1
+
+# Initial positions
+position_m1 = -1, 0, 0
+position_m2 = 1, 0, 0
+position_m3 = 0, 0, 0.134493458043699
+
+# Initial velocities
+velocity_m1 = 0.337464077114112, 0.534953915051988, 0.00175869830002977
+velocity_m2 = 0.337464077114112, 0.534953915051988, -0.00175869830002977
+velocity_m3 = -0.674928154228224, -1.069907830103976, 0
